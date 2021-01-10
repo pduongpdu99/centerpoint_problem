@@ -1,6 +1,7 @@
 from Node import *
 from dfs import *
 from bfs import *
+from intergrate_bfs_dfs import *
 
 import numpy as np
 from time import sleep
@@ -33,7 +34,7 @@ def main():
 	nodes[3].append(nodes[8])
 	nodes[4].append(nodes[9])
 
-	resultBFS = bfs(nodes)
+	resultBFS = bfs_dfs(nodes)
 	print([i.index for i in resultBFS])
 
 if __name__ == "__main__":
