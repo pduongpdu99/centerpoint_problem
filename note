@@ -1,0 +1,11 @@
+algorithm:
+- tabu search
+- back tracking
+- deep first search
+- breadth first search
+
+numpy.vectorize
+
+
+----------------
+DFS
